@@ -20,13 +20,17 @@ public class Main {
 			
 		}
 		
+		int [] array2 = new int [42];
+		
 		for(int i=0;i<10;i++) {
 			
-			for(int j=i;j<10;j++) {
+			for(int j=0;j<42;j++) {
 				
-				if(i!=j&&array[i]==array[j]) {
+				array2[j]=0;
+				
+				if(j==array[i]) {
 					
-					
+					array2[j]+=1;
 					
 				}
 				
