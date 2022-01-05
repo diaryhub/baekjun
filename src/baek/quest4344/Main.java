@@ -39,10 +39,10 @@ public class Main {
 			persent = (double) avgOver / Integer.parseInt(stus[0])*100;
 
 			bw.write(String.format("%.3f", persent)+"%\n");
-			bw.flush();
+			
 
 		}
-
+		bw.flush();
 		bw.close();
 		
 	}
