@@ -28,7 +28,7 @@ public class Main {
 				
 				
 				
-				if(str[i].equals("O")) {
+				if(str[j].equals("O")) {
 					
 					a+=1;
 					
