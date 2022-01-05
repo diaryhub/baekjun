@@ -10,15 +10,9 @@ public class Main {
 		
 		int N = sc.nextInt();
 		
-		//String str = sc.next();
-		
-		//String [] exam = str.split(" ");
-		
 		int [] grade = new int [N];
 		
 		for(int i=0;i<grade.length;i++) {
-			
-			//grade[i] = Integer.parseInt(exam[i]);
 			
 			grade[i] = sc.nextInt();
 			
