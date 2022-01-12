@@ -13,11 +13,13 @@ public class Main {
 		int n = Integer.parseInt(br.readLine());
 		int sum = 1;
 		int room = 1;
+		
 			for(int i=0;n>sum;i++) {
 				sum+=6*i;
 				room=i+1;
 			}
-		bw.write(room+"");
+			
+		bw.write(""+room);
 		bw.flush();
 		bw.close();
 	}
